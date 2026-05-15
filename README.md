@@ -20,6 +20,22 @@ Sources:
   [2] V 10-K (2025-11-06) · section 77
 ```
 
+# Live Demo
+
+## Example Questions & Cited Responses
+
+The system retrieves relevant SEC filing sections from EDGAR, performs semantic search using ChromaDB, and generates grounded answers with source citations.
+
+### Example Queries
+
+- What were the main risk factors Visa highlighted related to regulation or geopolitics?
+- How did cross-border transaction volume change year over year?
+- What was Visa operating income and operating margin in FY2025?
+
+### Example Output
+
+![FinSight RAG Demo](assets/demo_output.png)
+
 ---
 
 ## What it does
