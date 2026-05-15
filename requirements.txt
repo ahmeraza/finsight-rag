@@ -1,0 +1,42 @@
+# ── Core RAG ──────────────────────────────────────────────────────────────
+# Note: use --upgrade when installing in Colab — pinned versions conflict
+# with Colab's pre-installed packages. See notebooks for exact install commands.
+langchain
+langchain-core
+langchain-openai
+langchain-chroma
+langchain-community
+langchain-text-splitters
+langchain-classic              # provides MultiQueryRetriever in LangChain 1.x
+
+# ── Vector store ──────────────────────────────────────────────────────────
+chromadb
+
+# ── OpenAI SDK ────────────────────────────────────────────────────────────
+openai
+
+# ── PDF & document processing ─────────────────────────────────────────────
+pypdf==4.3.1
+pdfplumber==0.11.4             # better table extraction than pypdf alone
+beautifulsoup4==4.12.3         # HTML filing parser (most modern SEC 10-Ks are HTML)
+
+# ── Sentiment — FinBERT (Phase 2) ─────────────────────────────────────────
+# Uncomment when building Phase 2
+# transformers==4.44.2
+# torch==2.4.0                 # CPU-only; use torch==2.4.0+cu121 for CUDA GPU
+# sentence-transformers==3.0.1 # cross-encoder reranker (Phase 2)
+
+# ── Market data (Phase 2) ─────────────────────────────────────────────────
+# Uncomment when building Phase 2
+# yfinance==0.2.43
+
+# ── UI (Phase 2) ──────────────────────────────────────────────────────────
+# Uncomment when building Phase 2
+# streamlit==1.38.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────
+python-dotenv==1.0.1
+requests==2.32.3
+tenacity==8.5.0                # retry logic with exponential backoff for SEC API calls
+pandas==2.2.2
+numpy==1.26.4
