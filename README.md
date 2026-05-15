@@ -31,7 +31,6 @@ Built with payments industry expertise (Visa, Mastercard, PayPal, Block) — the
 
 **Example — revenue query with citations:**
 
-<<<<<<< HEAD
 ```
 Q: What was Visa total net revenue in FY2025 and how did it compare to FY2024?
 
@@ -45,19 +44,6 @@ Sources:
   [2] V 10-K (2025-11-06) · section 77  ← net revenue breakdown table
   [3] V 10-K (2025-11-06) · section 78
 ```
-=======
-### Example Questions & Cited Responses
-
-The system retrieves relevant SEC filing sections from EDGAR, performs semantic search using ChromaDB, and generates grounded answers with source citations.
-
-- What were the main risk factors Visa highlighted related to regulation or geopolitics?
-- How did cross-border transaction volume change year over year?
-- What was Visa operating income and operating margin in FY2025?
-
-### Example Output
-
-![FinSight RAG Demo](assets/demo_output.png)
->>>>>>> 08c6616961bae34b30ee3b20f319e499007ca682
 
 ---
 
