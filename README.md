@@ -8,25 +8,9 @@ Built for fintech analysts who need to ask plain-English questions across 10-K a
 
 ## Live demo output
 
-```
-Q: What was Visa total net revenue in fiscal year 2025 and how did it compare to 2024?
-
-A: Visa's total net revenue in fiscal year 2025 was $40.0 billion [2],
-   representing an 11% increase compared to $35.9 billion in fiscal year 2024 [2, 5].
-   Service revenue grew to $17.5B [2], driven by continued growth in payments volume.
-
-Sources:
-  [1] V 10-K (2025-11-06) · section 70
-  [2] V 10-K (2025-11-06) · section 77
-```
-
-# Live Demo
-
-## Example Questions & Cited Responses
+### Example Questions & Cited Responses
 
 The system retrieves relevant SEC filing sections from EDGAR, performs semantic search using ChromaDB, and generates grounded answers with source citations.
-
-### Example Queries
 
 - What were the main risk factors Visa highlighted related to regulation or geopolitics?
 - How did cross-border transaction volume change year over year?
