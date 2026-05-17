@@ -834,4 +834,3 @@ Knowing that MD&A sentiment correlates with price movement, that the TOC problem
 
 *FinSight RAG — Phase 1 + Phase 2 complete.*
 *Built by Ahmed Raza · [ahmeraza.github.io](https://ahmeraza.github.io)*
-*Fintech background: Checkout.com, Fuze*
