@@ -445,5 +445,3 @@ FinSight: SEC EDGAR API → byte-level format detection → noise-filtered chunk
 The gap between a demo and a tool someone would actually trust with financial decisions is: cited sources, deterministic output, domain-specific sentiment that understands hedging language, graceful degradation when context is missing, and an ingestion pipeline that handles the messy reality of how SEC actually publishes filings in 2025 (spoiler: it's HTML, not PDF, and the file you want is buried in a 30-file package).
 
 ---
-
-*Built by Ahmed Raza · [ahmeraza.github.io](https://ahmeraza.github.io) · Fintech & Payments background (Checkout.com, Fuze)*
