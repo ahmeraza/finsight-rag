@@ -332,8 +332,12 @@ def score_text(text: str) -> dict:
 
     results = []
     for i in range(0, len(sentences), 32):
-        batch = sentences[i:i+32]
-        for result_list in pipe(batch, truncation=True, max_length=512):
+        batch        = sentences[i:i+32]
+        batch_output = pipe(batch, truncation=True, max_length=512)
+        for result_list in batch_output:
+            # Handle both list of dicts and single dict output formats
+            if isinstance(result_list, dict):
+                result_list = [result_list]
             best   = max(result_list, key=lambda x: x["score"])
             label  = best["label"].lower()
             score  = best["score"]
