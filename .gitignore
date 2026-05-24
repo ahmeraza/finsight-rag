@@ -1,0 +1,24 @@
+# Environment variables — never commit API keys
+.env
+
+# ChromaDB vector store — large binary files, rebuild locally
+data/
+
+# Python virtual environment
+.venv/
+venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Mac system files
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
